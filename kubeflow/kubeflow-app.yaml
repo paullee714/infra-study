@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/kubeflow/manifests'
-    targetRevision: v1.8-branch
-    path: example
+    repoURL: 'https://github.com/paullee714/infra-study'
+    targetRevision: master
+    path: kubeflow/manifests/kustomize
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: kubeflow
